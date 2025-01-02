@@ -1,0 +1,32 @@
+\documentclass{book}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Detection and Estimation theory}
+\author{Vaishnavi Sharma, MTech(res), CPS}
+\date{January, 2025}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Lecture 1: Essentials}
+\textbf{Ultimate goal:} Making decisions from data/observations and then evaluating them.\\
+Quizzes: 20\% (Best 2 out of 3)\\
+Midterms: 2, 40\%\\
+Endterm: 40\%\\
+Tutorials, Assignments.
+\subsection{Introduction}
+\textbf{Detection theory}\\
+1. Given a set of finite possibilities out of which only one is correct.\\
+2. Decide/select one based on a set of random measurements (random/noisy).\\
+E.g. Digital Communication, detecting presence/absence of aircraft, Voice/face recognition. \\
+Detection: Finite choices, Estimation: Infinite choices.\\
+Another example: Transmitter-receiver: bits to symbols, symbols get through noisy channel and then receiver has to find out true bit that was given to transmitter.\\
+Bits are equally likely.\\
+
+Cases:\\
+1. Channel is perfect, i.e. s = $\hat{s}$. Then just reverse mapping will work.\\
+2. Noisy channel: $\hat{s} = s + w$, $w ~ N(0,\sigma^{2})$. So $\hat{s}$ will be $in (-\a, a)$.
+
+
+\end{document}
